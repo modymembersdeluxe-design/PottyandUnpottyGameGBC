@@ -19,6 +19,8 @@ A safe, kid-friendly Game Boy Color project prototype for toilet-training themed
 - `tools/build.sh`: one-command clean release build helper
 
 ## Build (Ubuntu/bash)
+
+Detailed cross-platform instructions: `docs/BUILD_TUTORIAL.md`.
 Requirements: `rgbasm`, `rgblink`, `rgbfix` (RGBDS toolchain).
 
 Syntax check:
