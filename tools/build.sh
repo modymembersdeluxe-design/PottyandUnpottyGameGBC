@@ -5,6 +5,8 @@ ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"
 
 make clean
-make all
+make release
 
-echo "Built ROM: $ROOT_DIR/build/potty_unpotty_deluxe.gbc"
+echo "Built ROMs:"
+echo "- $ROOT_DIR/build/potty_unpotty_deluxe.gbc"
+echo "- $ROOT_DIR/build/potty_unpotty_deluxe.gba"

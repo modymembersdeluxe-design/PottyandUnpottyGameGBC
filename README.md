@@ -15,20 +15,29 @@ A safe, kid-friendly Game Boy Color project prototype for toilet-training themed
 - `src/main.asm`: game loop, state machine, and render dispatch
 - `assets/sprites.asm`: placeholder sprite data + tile queue stubs
 - `assets/audio.asm`: placeholder music/SFX data + playback stubs
-- `Makefile`: RGBDS build pipeline to produce a `.gbc` ROM
-- `tools/build.sh`: one-command clean build helper
+- `Makefile`: RGBDS build pipeline to produce `.gbc` and release `.gba` ROM files
+- `tools/build.sh`: one-command clean release build helper
 
-## Build
+## Build (Ubuntu/bash)
 Requirements: `rgbasm`, `rgblink`, `rgbfix` (RGBDS toolchain).
+
+Syntax check:
+
+```bash
+bash -n tools/build.sh
+```
+
+Release build:
 
 ```bash
 ./tools/build.sh
 ```
 
-ROM output:
+ROM outputs:
 
 ```text
 build/potty_unpotty_deluxe.gbc
+build/potty_unpotty_deluxe.gba
 ```
 
 ## Next expansion ideas
