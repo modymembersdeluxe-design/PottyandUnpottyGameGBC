@@ -1,4 +1,4 @@
-# Potty and Unpotty Deluxe (Game Boy Color)
+# The Potty Unpotty Deluxe - Game Boy Color
 
 A safe, kid-friendly Game Boy Color project prototype for toilet-training themed mini-games.
 
