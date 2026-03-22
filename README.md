@@ -18,6 +18,7 @@ A safe, kid-friendly Game Boy Color project prototype for toilet-training themed
 - `Makefile`: RGBDS build pipeline to produce `.gbc` and release `.gba` ROM files
 - `tools/build.sh`: one-command clean release build helper
 - `docs/GAMEPLAY_TUTORIAL.md`: gameplay flow and mini-game walkthrough
+- `docs/WINDOWS_8_1_GBC_RELEASE_TUTORIAL.md`: Windows 8.1 release `.gbc` build walkthrough
 
 ## Build (Ubuntu/bash)
 
